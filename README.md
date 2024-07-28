@@ -6,6 +6,7 @@
 *1. User Authentication:*
 * Secure login functionality.
 * Validation of user credentials to ensure that only authorized users can access the system.
+  
 *2.Student Management:*
 * View Students: Fetch and display all student records from the database.
 * Add Student: Provide a form to input new student details and save them to the database.
