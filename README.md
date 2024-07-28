@@ -51,7 +51,32 @@
       * `Section_Id (int)`
       * `Section_Name (varchar)`
       * `Class_Id (FK) (int)`
+## Microservices Architecture
+>* The application is designed with a microservices architecture to separate the concerns of user management and student management, ensuring better scalability and maintainability. The services are deployed on different servers to enhance modularity and performance:
 
+* **User Service:**
+* Runs on port 8080.
+* Provides APIs to validate user details.
+
+* **Student Service:**
+* Runs on port 9092.
+* Provides APIs to fetch all student details, add a new student, update student details, and delete a student.
+
+## How to Start the Project
+* **1. Find the main class of the User Service:**
+       * Navigate to the User Service directory.
+       * Run the main class.
+       * Open any browser and type `localhost:8080.`
+* **2. Find the main class of the Student Service:**
+       * Navigate to the Student Service directory.
+       * Run the main class.
+
+ ## The entire project works on port 8080.
+ 
+
+
+* **Conclusion**
+>*  The Student Management System is a robust and scalable solution for managing student records. By leveraging core Java, Spring Boot, RESTful APIs, microservices, Hibernate, JDBC, MySQL, HTML, CSS, JavaScript, and Angular, the system ensures a smooth user experience and efficient data management. This project is an ideal tool for educational institutions to streamline their student management processes.
  
 
 
