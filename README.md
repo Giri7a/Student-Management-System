@@ -63,11 +63,11 @@
    * Provides APIs to fetch all student details, add a new student, update student details, and delete a student.
 
 ## How to Start the Project
-* **1. Find the main class of the User Service:**
+* 1. Find the main class of the User Service:
        * Navigate to the User Service directory.
        * Run the main class.
        * Open any browser and type `localhost:8080.`
-* **2. Find the main class of the Student Service:**
+* 2. Find the main class of the Student Service:
        * Navigate to the Student Service directory.
        * Run the main class.
 
