@@ -15,12 +15,12 @@
 
 ##Technologies Used
 *Backend:*
-* *Core Java:* Serves as the backbone of the application, handling business logic.
-* *Spring Boot:* Facilitates the creation of stand-alone, production-grade Spring-based applications.
-* *RESTful APIs:* Enables communication between the frontend and backend services.
-* *Microservices:* Separates the application into independent services, improving scalability and maintainability.
-* *Hibernate:* Simplifies database interactions by mapping Java objects to database tables.
-* *JDBC:* Provides a standard method for accessing databases.
-* *MySQL:* Stores user and student data securely.
+*** Core Java**: Serves as the backbone of the application, handling business logic.
+* Spring Boot: Facilitates the creation of stand-alone, production-grade Spring-based applications.
+* RESTful APIs: Enables communication between the frontend and backend services.
+* Microservices: Separates the application into independent services, improving scalability and maintainability.
+* Hibernate: Simplifies database interactions by mapping Java objects to database tables.
+* JDBC: Provides a standard method for accessing databases.
+* MySQL: Stores user and student data securely.
 
 
