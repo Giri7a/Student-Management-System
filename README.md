@@ -3,15 +3,15 @@
 >* The Student Management System is a comprehensive web application designed to manage student records efficiently. It incorporates modern technologies to provide a robust and scalable solution. The system supports user authentication and offers CRUD operations (Create, Read, Update, Delete) on student records. The project uses core Java, Spring Boot, RESTful APIs, microservices, Hibernate, JDBC, MySQL, HTML, CSS, JavaScript, and Angular for a full-stack development approach.
 
 ## Key Features
-*    1. User Authentication:*
-*        Secure login functionality.
-*        Validation of user credentials to ensure that only authorized users can access the system.
+* 1. User Authentication:*
+* Secure login functionality.
+* Validation of user credentials to ensure that only authorized users can access the system.
   
 *2. Student Management:*
-*     **View Students:** Fetch and display all student records from the database.
-*     **Add Student:** Provide a form to input new student details and save them to the database.
-*     **Edit Student:** Update existing student information.
-*     **Delete Student:** Remove student records from the system.
+* **View Students:** Fetch and display all student records from the database.
+* **Add Student:** Provide a form to input new student details and save them to the database.
+* **Edit Student:** Update existing student information.
+* **Delete Student:** Remove student records from the system.
 
 ##Technologies Used
 *Backend:*
@@ -31,11 +31,29 @@
 
 *Database Design*
 * **User Database** `(Your_Name_User):`
-   * **Table:** `User`
-   *  `User_Id (int)`
-   * `User_Name (varchar)`
-  * `Password (varchar)`
+   * **Table:**  User
+      *  `User_Id (int)`
+      * `User_Name (varchar)`
+      * `Password (varchar)`
 
-* 
+* **Student Database** `(Your_Name_Student):`
+   * **Table:**  Student
+      * `Student_Id (int)`
+      * `Name (varchar)`
+      * `Admission_No (varchar)`
+      * `Class_Id (FK) (int)`
+      * `Section_Id (int)`
+      * `Joining_Date (DateTime)`
+   * **Table:**  Class
+      * `Class_Id (int)`
+      * `Class_Name (varchar)`
+   * **Table:**  Section
+      * `Section_Id (int)`
+      * `Section_Name (varchar)`
+      * `Class_Id (FK) (int)`
+
+ 
+
+
 
 
