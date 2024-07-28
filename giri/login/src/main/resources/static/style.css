@@ -1,0 +1,70 @@
+        body {
+            background-color: #A3C1AD;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 80%;
+            max-width: 300px;
+        }
+        h2 {
+            color: black;
+            margin-bottom: 20px; /* Added margin bottom */
+        }
+        form {
+            margin-top: 20px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: -10px;
+            color: black;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: darkblue;
+        }
+        .error {
+            color: red;
+            text-align: center;
+            margin-top: 10px;
+        }
+        #logout {
+            margin-top: 20px;
+            width: 100%;
+            padding: 12px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none; /* Initially hidden */
+        }
+        #logout:hover {
+            background-color: darkblue;
+        }
