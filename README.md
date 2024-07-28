@@ -3,7 +3,7 @@
 >* The Student Management System is a comprehensive web application designed to manage student records efficiently. It incorporates modern technologies to provide a robust and scalable solution. The system supports user authentication and offers CRUD operations (Create, Read, Update, Delete) on student records. The project uses core Java, Spring Boot, RESTful APIs, microservices, Hibernate, JDBC, MySQL, HTML, CSS, JavaScript, and Angular for a full-stack development approach.
 
 ## Key Features
-* 1. User Authentication:*
+*1. User Authentication:*
 * Secure login functionality.
 * Validation of user credentials to ensure that only authorized users can access the system.
   
@@ -13,7 +13,7 @@
 * **Edit Student:** Update existing student information.
 * **Delete Student:** Remove student records from the system.
 
-##Technologies Used
+## Technologies Used
 *Backend:*
 * **Core Java:** Serves as the backbone of the application, handling business logic.
 * **Spring Boot:** Facilitates the creation of stand-alone, production-grade Spring-based applications.
