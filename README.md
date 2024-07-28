@@ -55,12 +55,12 @@
 >* The application is designed with a microservices architecture to separate the concerns of user management and student management, ensuring better scalability and maintainability. The services are deployed on different servers to enhance modularity and performance:
 
 * **User Service:**
-* Runs on port 8080.
-* Provides APIs to validate user details.
+   * Runs on port 8080.
+   * Provides APIs to validate user details.
 
 * **Student Service:**
-* Runs on port 9092.
-* Provides APIs to fetch all student details, add a new student, update student details, and delete a student.
+   * Runs on port 9092.
+   * Provides APIs to fetch all student details, add a new student, update student details, and delete a student.
 
 ## How to Start the Project
 * **1. Find the main class of the User Service:**
